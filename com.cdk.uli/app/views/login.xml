@@ -1,0 +1,13 @@
+<Alloy>
+    <Window id="winLogin" modal="true">
+        <WebView id="samlWebView" ignoreSslError="true" borderRadius="0.1" class="" />
+		<Widget id="loading_view" src="loading_view" />		
+		<AlertDialog id="dialog" title="Access Denied"
+            cancel="1">
+            <ButtonNames>              
+                <ButtonName>OK</ButtonName>               
+            </ButtonNames>
+            </AlertDialog>
+    </Window>
+</Alloy>
+ 

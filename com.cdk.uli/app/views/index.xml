@@ -1,0 +1,13 @@
+<Alloy>
+  <Window id="win">
+    <AlertDialog id="dialog" onClick="doClick" title="Update"
+              message="Newer version of this app is available. Please download?" cancel="1">
+
+              <!-- The ButtonNames tag sets the buttonNames property. -->
+              <ButtonNames>
+                  <ButtonName>Download</ButtonName>
+                              </ButtonNames>
+          </AlertDialog>
+      <Widget id="loading_view" src="loading_view" />    
+  	</Window>
+</Alloy>
